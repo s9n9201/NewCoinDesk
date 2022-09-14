@@ -1,6 +1,7 @@
 ## 說明
 
-### Controller：[CurrencyEnZhControllerTest.class](/src/test/java/com/demo/newcoindesk/controller/CurrencyEnZhControllerTest.java) `src/test/java/com/demo/newcoindesk/controller/CurrencyEnZhControllerTest`
+### Controller：[CurrencyEnZhControllerTest.class](/src/test/java/com/demo/newcoindesk/controller/CurrencyEnZhControllerTest.java)
+`src/test/java/com/demo/newcoindesk/controller/CurrencyEnZhControllerTest`
 > #### 1. 測試呼叫查詢幣別對應表資料 API，並顯示其內容。
 > ##### 　使用方法：[getCurrencyEnZhList()](/src/test/java/com/demo/newcoindesk/controller/CurrencyEnZhControllerTest.java#L56)
 >
@@ -16,7 +17,8 @@
 
 
 
-### Controller：[CallCoinDeskControllerTest.class](/src/test/java/com/demo/newcoindesk/controller/CallCoinDeskControllerTest.java) `src/test/java/com/demo/newcoindesk/controller/CallCoinDeskControllerTest`
+### Controller：[CallCoinDeskControllerTest.class](/src/test/java/com/demo/newcoindesk/controller/CallCoinDeskControllerTest.java)
+`src/test/java/com/demo/newcoindesk/controller/CallCoinDeskControllerTest`
 > #### 5. 測試呼叫 coindesk API，並顯示其內容。
 > ##### 　使用方法：[callCoinDesk()](/src/test/java/com/demo/newcoindesk/controller/CallCoinDeskControllerTest.java#L25)
 >
