@@ -34,6 +34,11 @@ public class CurrencyEnZhController {
         return ResponseEntity.ok(responseCurrencyEnZhList);
     }
 
+    @GetMapping("/456")
+    public String getFourFiveSix() {
+        return "4 5 6";
+    }
+
     @DeleteMapping("/delete/{uuid}")
     public ResponseEntity<?> delete(@PathVariable String uuid) {
         currencyEnZhService.delete(uuid);

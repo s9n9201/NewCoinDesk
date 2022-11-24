@@ -33,6 +33,11 @@ public class CallCoinDeskController {
         return ResponseEntity.ok(responseCoinDesk);
     }
 
+    @GetMapping("/123")
+    public String getOneTwoThree() {
+        return "1 2 3";
+    }
+
     private CoinDesk callAPI() {
         RestTemplate restTemplate = new RestTemplate(List.of(new JavaScriptMessageConverter()));
         return restTemplate.getForObject(url, CoinDesk.class);
