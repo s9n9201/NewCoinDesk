@@ -35,7 +35,7 @@ public class CallCoinDeskController {
 
     @GetMapping("/123")
     public String getOneTwoThree() {
-        return "1 2 3 4 5";
+        return "1 2 3 4 5 6";
     }
 
     private CoinDesk callAPI() {
