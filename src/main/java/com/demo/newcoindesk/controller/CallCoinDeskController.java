@@ -28,6 +28,7 @@ public class CallCoinDeskController {
 
     @GetMapping("/getNewCoinDesk")
     public ResponseEntity<ResponseCoinDesk> getNewCoinDesk() throws Exception {
+        System.out.println("TEST");
         CoinDesk coinDesk = this.callAPI();
         ResponseCoinDesk responseCoinDesk = callCoinDeskService.formatData(coinDesk);
         return ResponseEntity.ok(responseCoinDesk);
